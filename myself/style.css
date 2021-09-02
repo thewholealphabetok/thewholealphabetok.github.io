@@ -1,0 +1,8 @@
+body {
+    background-color: chocolate ;
+    color: beige;
+}
+
+.border {
+    border: 3px solid beige;
+}
