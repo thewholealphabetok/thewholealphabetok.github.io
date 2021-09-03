@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>work</title>
+        <link rel="stylesheet" href="my-style.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="icon.png"/>
+        <style>
+            body{
+                background-image: url(meadow.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100%;
+            }
+            .dropbtn {
+                font-family: 'Times New Roman', Times, serif;
+
+                box-shadow: 0px 10px 24px yellowgreen;
+                font-weight: bold;
+                font-style: italic;
+                font-size: 22px;
+                text-decoration: none;
+                line-height: 1.5;
+                background-color: yellowgreen;
+                transition: all 0.6s;
+                
+                margin-left: 44px;
+                margin-top: 38px;
+                border-radius: 50%;
+                color: white;
+                padding: none;
+                border: none;
+                cursor: pointer;
+            }
+
+            /* 容器 <div> - 需要定位下拉内容 */
+            .dropdown {
+                position: relative;
+                display: inline-block;
+            }
+
+            /* 下拉内容 (默认隐藏) */
+            .dropdown-content {
+                margin-left: 32px;
+                display: none;
+                position: absolute;
+                background-color: #f9f9f900;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0);
+            }
+
+            /* 下拉菜单的链接 */
+            .dropdown-content a {
+                color: rgb(255, 255, 255);
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                transition: all 0.6s;
+            }
+
+            /* 鼠标移上去后修改下拉菜单链接颜色 */
+            .dropdown-content a:hover {transform: scale(1.2);}
+
+            /* 在鼠标移上去后显示下拉菜单 */
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+
+            /* 当下拉内容显示后修改下拉按钮的背景颜色 */
+            .dropdown:hover .dropbtn {
+
+                font-size: 24px;
+            }
+
+
+
+            .btm {
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 2rem;
+                padding-bottom: 0rem;
+                background-color: rgb(153, 205, 50);
+                display: flex;
+                justify-content: center;
+            }
+            .btm2 {
+                background-color: rgb(153, 205, 50);
+                display: flex;
+                justify-content: flex-end;
+                padding-bottom: 1rem;
+            }
+            .btm2 p {
+                color: rgb(255, 255, 255);
+                margin-right: 3rem;
+                font-style: italic;
+                font-size: 16px;
+                font-weight: lighter;
+            }
+            .btm nav {
+                display: flex;
+                justify-content:space-between;
+                font-size: 20px;
+            }
+            .btm nav a {
+                text-decoration: none;
+                color: white;
+                margin: 1rem;
+            }
+            .btm nav span {
+                margin: 1rem;
+            }
+            .main {
+                margin-bottom: 3rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="page-header">
+            <a href="index.html"><img src="house2.png" class="home"/></a>      
+            <div class="wrapper">
+              
+              <nav>
+                <a href="my-about.html" class="navi">about</a>      
+                <a href="my-work.html" class="navi">work</a>
+                <a href="my-constructing.html" class="navi">post</a>
+                <a href="my-constructing.html" class="navi">shop</a>
+
+              </nav>
+            </div>
+            <a href="my-constructing.html" class="lang">中/En</a>
+        </header>
+
+        <div class="button">
+            <a href="#top"><img src="up.png"/></a>
+        </div>
+
+
+
+
+        <div class="dropdown">
+            <button class="dropbtn">sort by</button>
+            <div class="dropdown-content">
+              <a href="#">date</a>
+              <a href="#">alphabet</a>
+              <a href="#">popularity</a>
+            </div>
+        </div>  
+
+
+
+        <div class="main">
+            <div class="col">
+                <div><a href=""><img src="01.jpg"/><h1 class="p1">So Sour !</h1><p class="p2">animation, 2019</p></a></div>
+                <div><a href=""><img src="02.jpg"/><h1 class="p1">Jellyfish</h1><p class="p2">jewelry display rack, 2020</p></a></div>
+                <div><a href=""><img src="03.jpg"/><h1 class="p1">U-Neat </h1><p class="p2">table sundries holder, collaboration, 2020 </p></a></div>
+            </div>
+            <div class="col">
+                <div><a href="my-work-stool.html"><img src="04.jpg"/><h1 class="p1">Curved Stool</h1><p class="p2">stool, 2021</p></a></div>
+                <div><a href=""><img src="05.jpg"/><h1 class="p1">Alma</h1><p class="p2">emotional vehicle, collaboration, 2021</p></a></div>                
+            </div>
+            
+        </div>
+
+
+
+
+
+
+        <div class="btm">   
+            <nav>
+              <a href="#">&lt</a>
+              <span style="color: rgb(55, 158, 255);">1</span>
+              <a href="#">2</a>
+              <a href="#">3</a>
+              <a href="#">&gt</a>
+            </nav>
+        </div>
+        <div class="btm2">   
+            <p>©2021, Chen Ningzi</p>
+        </div>​
+ 
+    </body>
+    
+</html>
