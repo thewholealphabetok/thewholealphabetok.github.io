@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>work</title>
+        <link rel="stylesheet" href="my-style.css" />
+        <link rel="shortcut icon" type="image/x-icon" href="icon.png"/>
+        <style>
+            body{
+                background-image: url(meadow.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100%;
+            }
+
+
+            .btm {
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 2rem;
+                padding-bottom: 0rem;
+                background-color: rgb(153, 205, 50);
+                display: flex;
+                justify-content: center;
+            }
+            .btm2 {
+                background-color: rgb(153, 205, 50);
+                display: flex;
+                justify-content: flex-end;
+                padding-bottom: 1rem;
+            }
+            .btm2 p {
+                color: rgb(255, 255, 255);
+                margin-right: 3rem;
+                font-style: italic;
+                font-size: 16px;
+                font-weight: lighter;
+            }
+            .btm nav {
+                display: flex;
+                justify-content:space-between;
+                font-size: 20px;
+            }
+            .btm nav a {
+                text-decoration: none;
+                color: white;
+                margin: 1rem;
+            }
+            .btm nav span {
+                margin: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="page-header">
+            <a href="my-index.html"><img src="house2.png" class="home"/></a>      
+            <div class="wrapper">
+              
+              <nav>
+                <a href="my-about.html" class="navi">about</a>      
+                <a href="my-work.html" class="navi">work</a>
+                <a href="my-constructing.html" class="navi">post</a>
+                <a href="my-constructing.html" class="navi">shop</a>
+
+              </nav>
+            </div>
+            <a href="my-constructing.html" class="lang">中/En</a>
+        </header>
+
+        <div class="button">
+            <a href="#top"><img src="up.png"/></a>
+        </div>
+
+
+        <div class="pja">
+            <div class="project-all">
+
+                <div class="brief">
+                    <div class="brief-img">
+                        <!--<img src="1952181\1952181.jpg" alt="">
+                        <img src="1952181\1952181陈宁子 正图.jpg" alt="">
+                        <img src="1952181\1952181.jpg" alt="">-->
+                        <img src="1952181\1952181陈宁子 正图.jpg" alt="" >
+                    </div>
+                    <div class="brief-info">
+                        <p><h1>Curved Stool</h1></p>
+                        <p><span>Chen Ningzi, 2020</span></p>
+                        <p><h2>material:</h2><span>resin, felt, IKEA products</span></p>
+                    </div>
+                </div>
+
+                <div class="detail">
+                    <p style="margin-bottom: 2rem;"><span>我对黑客精神的理解是挑战现有产品的成型方式、挑战视觉和使用的一致性。因此我把宜家的垃圾桶和盘作为凳子成型的模具，覆盖用环氧树脂浸透的毛毡并固化，形成一个看起来软坐起来坚固的凳子。</span></p>
+                    <p><span>My understanding of the spirit of hackers is to challenge the way existing products are shaped, to challenge the consistency of vision and using. So I used IKEA's trash can and plate as a mold for stool forming, had it covered with epoxy impregnated felt and cured to form a stool that looks soft and sits firm. </span></p>
+                </div>
+
+                <div class="detail-pic">
+                    <img src="1952181/dh.jpg" alt="" style="width: 150px;"><img src="1952181/d2.jpg" alt="" style="width: 330px ;"><img src="1952181/d3.jpg" alt="" style="width: 200px;">
+                </div>
+
+                <div class="scenario-pic">
+                    <img src="1952181/d4.jpg" alt="" style="width: 700px;">
+                </div>
+
+            </div>
+        </div>
+
+        <style>
+            .pja {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .project-all {
+                display: flex;
+                flex-direction: column;
+                align-items:flex-start;
+                justify-content: flex-start;
+                width: 700px;
+            }
+            .project-all div {
+                margin-top: 2.5rem ;
+            }
+            .brief {
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-start;
+                margin: 0;
+                margin-bottom: 3rem;
+                width: 700px;
+            }
+
+            .brief-info {
+                width: 300px;
+                padding-left: 5rem;
+            }
+            .brief-img {
+                width: 400px;
+                height: 260px;
+                overflow: hidden;
+            }
+            .brief-img img {
+                width: 400px;
+                height: 260px;
+                object-fit: cover;
+                box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.359);
+                margin: 0;
+                transition: all 0.6s;
+            }
+            .brief-img img:hover {
+                transform: scale(1.2);
+            }
+            .detail {
+                line-height: 1.3;
+                width: 505px;
+                margin-left: 0;
+                margin-right: 0;
+                margin-bottom: 10rem;
+                margin-top: 0;
+            }
+            span {
+                color: white;
+                font-family:'Times New Roman', Times, serif;
+            }
+            .detail-pic {
+                width: 700px;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                
+                margin-bottom: 2rem;
+            }
+            .detail-pic img {
+                height: 200px;
+                object-fit: cover;
+                margin: 0;
+                box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.359);
+            }
+            .scenario-pic {
+                display: flex;
+                justify-content: space-around;
+                align-items: flex-start;
+                box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.359);
+                margin-bottom: 8rem;
+            }
+            .scenario-pic img {
+                height: 300px;
+                object-fit: cover;
+                margin: 0;
+            }
+        </style>
+
+
+
+
+
+
+
+
+
+        <div class="btm">   
+            <nav>
+            <a href="#">&lt</a>
+            <a href="#">prev</a>
+            <span style="color: rgb(55, 158, 255);">Curved Stool</span>
+            <a href="#">last</a>
+            <a href="#">&gt</a>
+            </nav>
+        </div>
+        <div class="btm2">   
+            <p>©2021, Chen Ningzi</p>
+        </div>​
+ 
+    </body>
+    
+</html>
